@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OTP</title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <SCRIPT SRC="C:\Users\Desktop\Desktop\CATM\catm.js\genotp.js"></SCRIPT>
+  <script src="C:\Users\Desktop\Desktop\CATM\catm.js\otp.js"></script>
+  <body style="background: url(https://pbs.twimg.com/media/Dypl5hUWsAIUOag.jpg);
+  background-size: 100%100%;   margin-bottom: 40%; margin-left=20%">
+    <br><br><br><br><br><br>
+    <center>
+      <div style="background-color:black;
+  width: 300px;
+height: 206px;
+border: solid 10px;
+OPACITY:0.8">
+    <h1 style="color:white;">ENTER  OTP</H1>
+      <br>
+        <form onsubmit="return OTP(p)" action="account.html" autocomplete="off">
+      <input type="text" id="ot" style="height:25px; width:200px; align:center;" required>
+      <br><br> <br>
+    <input type="submit">SUBMIT</button>
+      <br><br><br>
+    </form>
+      <a href="C:\Users\Desktop\Desktop\CATM\help.html"><button style="background-color:red;">help</button></a>
+    </div>
+    </center>
+    <script>
+    var p=generateOTP();
+    alert("YOUR OTP IS : "+p);
+    </script>
+  </body>
+</html>
